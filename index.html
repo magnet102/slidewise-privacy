@@ -12,19 +12,31 @@
 </head>
 <body>
 <h1>Slidewise – Privacy Policy</h1>
-<p>Last updated: 27 October 2026</p>
+<p>Last updated: 9 November 2026</p>
 
 <p>Slidewise: Number Block Puzzle ("the game") is made by Horus Games. This page explains what the game does with your data.
-Short version: <b>we do not collect your name, email or any account. The game shows ads from Google AdMob and
-sends anonymous gameplay statistics to GameAnalytics.</b></p>
+Short version: <b>we do not collect your email or create any account. In multiplayer rooms ("Play with friends"), our room
+server sees the nickname you enter and your IP address only while you are in the room, and nothing is kept afterwards. The game
+also shows ads from Google AdMob and sends anonymous gameplay statistics to GameAnalytics.</b></p>
 
-<h2>What is stored</h2>
+<h2>What is stored on your phone</h2>
 <ul>
-  <li>Your progress (levels reached, stars, best moves, Daily Puzzle streak) and your settings (music, sounds,
+  <li>Your progress (levels reached, stars, best moves, Daily Puzzle streak) and your settings (language, music, sounds,
       vibration, tutorial seen).</li>
   <li>They are saved only in the game's private storage on your phone. They are not sent to us or to anyone else.</li>
   <li>If Android backup is turned on in your phone settings, Android may include these files in your own
       device backup (handled by Google under your Google account, not by us).</li>
+</ul>
+
+<h2>Multiplayer rooms ("Play with friends")</h2>
+<ul>
+  <li>When you create or join a private room ("Play with friends"), the game connects over encrypted HTTPS/WebSocket
+      to our room server hosted on Cloudflare Workers.</li>
+  <li>While you are in a room, the server sees the player name you type (up to 12 characters, shown to the other 2–4
+      players in the same room), your moves and finish time for that race, and your IP address (used for the network
+      connection and abuse/rate limiting).</li>
+  <li>Nothing is kept after the room closes; temporary rate-limit counters reset automatically at 00:00 UTC each day.
+      No account or profile is created.</li>
 </ul>
 
 <h2>Ads (Google AdMob)</h2>
@@ -50,12 +62,12 @@ sends anonymous gameplay statistics to GameAnalytics.</b></p>
 </ul>
 
 <h2>Sharing</h2>
-<p>The "Share" button after the Daily Puzzle opens Android's share menu with a short text (puzzle number, stars,
-moves and the store link). Nothing is sent unless you choose an app to share with.</p>
+<p>The "Share" button after the Daily Puzzle or in a room lobby opens Android's share menu with a short text (the Daily
+puzzle result or the 6-character room code and the store link). Nothing is sent unless you choose an app to share with.</p>
 
 <h2>Permissions</h2>
-<p>INTERNET and network state (ads and statistics), VIBRATE (the short buzz when you move a piece; you can turn
-it off in Settings), and AD_ID (added by Google's ads SDK).</p>
+<p>INTERNET and network state (multiplayer rooms, ads and statistics), VIBRATE (the short buzz when you move a piece;
+you can turn it off in Settings), and AD_ID (added by Google's ads SDK).</p>
 
 <h2>Children</h2>
 <p>The game is meant for ages 13 and up. Ads are limited to general-audience (PG) content.</p>
@@ -70,6 +82,6 @@ to your install ID, email us.</p>
 version is released, and the "Last updated" date will change.</p>
 
 <h2>Contact</h2>
-<p>Questions: <a href="mailto:horusgames.support@gmail.com">horusgames.support@gmail.com</a></p>
+<p>Questions: <a href="mailto:horus.gameshg@gmail.com">horus.gameshg@gmail.com</a></p>
 </body>
 </html>
